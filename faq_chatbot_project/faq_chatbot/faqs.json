@@ -1,0 +1,22 @@
+[
+  {"question":"What are the college admission requirements?", "answer":"Admission requirements vary by course. Please check the official admission portal or contact the admissions office with your course details."},
+  {"question":"How can I apply for admission?", "answer":"You can apply through the college's official admission portal. Complete the application form and upload the required documents."},
+  {"question":"What documents are required for admission?", "answer":"Commonly required documents include academic marksheets, identification, photographs and any course-specific documents. Confirm the exact list with the admissions office."},
+  {"question":"What is the fee structure?", "answer":"The fee depends on your course and academic year. Please consult the official fee notice or accounts office for the latest details."},
+  {"question":"How do I pay my fees?", "answer":"Use the payment method and portal listed in the official college fee notice. Keep your payment receipt for reference."},
+  {"question":"Where can I find the academic calendar?", "answer":"The academic calendar is usually available on the college or university website and student portal."},
+  {"question":"How can I check my attendance?", "answer":"Check attendance through your student portal or ask your department office if attendance records are not visible."},
+  {"question":"What are the library timings?", "answer":"Library timings may change during holidays or exams. Please check the library notice board or contact the library staff."},
+  {"question":"How do I get my student ID card?", "answer":"Contact the student administration office and follow its process for issuing or replacing student ID cards."},
+  {"question":"How can I contact the placement cell?", "answer":"You can contact the placement cell through the official college email, office or student portal. Check the college website for current contact details."},
+  {"question":"Are internships available for students?", "answer":"Internship announcements are often shared by the placement cell, department, student portal and official college channels."},
+  {"question":"How do I reset my student portal password?", "answer":"Use the Forgot Password option on the student portal login page. If that does not work, contact the IT helpdesk."},
+  {"question":"When are examinations conducted?", "answer":"Examination dates are announced in the academic calendar and official examination notices."},
+  {"question":"Where can I get my exam admit card?", "answer":"Admit cards are generally available on the examination portal. Contact the examination office if yours is unavailable."},
+  {"question":"How do I request a transcript?", "answer":"Contact the examination or student administration office and follow the official transcript request process."},
+  {"question":"Is hostel accommodation available?", "answer":"Hostel availability, application steps and fees are managed by the hostel administration. Contact them for current information."},
+  {"question":"How can I report a technical issue?", "answer":"Report portal or technical problems to the college IT helpdesk. Include a brief description of the issue and any error message."},
+  {"question":"How can I get a scholarship?", "answer":"Check the college scholarship notice and official government scholarship portals for eligibility, deadlines and application details."},
+  {"question":"What is the college address?", "answer":"Please check the college's official website for its current address and directions."},
+  {"question":"Who should I contact for general queries?", "answer":"For general questions, contact the student administration office or your department office."}
+]

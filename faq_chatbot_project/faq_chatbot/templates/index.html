@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Campus FAQ Assistant</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+  <main class="app-shell">
+    <aside class="sidebar">
+      <div class="brand"><div class="brand-mark">Q</div><div><strong>Campus FAQ</strong><small>Student assistant</small></div></div>
+      <div class="side-label">SUGGESTED QUESTIONS</div>
+      <button class="suggestion" data-question="How can I apply for admission?">How do I apply for admission?</button>
+      <button class="suggestion" data-question="How can I check my attendance?">How do I check attendance?</button>
+      <button class="suggestion" data-question="How can I contact the placement cell?">How do I contact placements?</button>
+      <button class="suggestion" data-question="How do I reset my student portal password?">Reset portal password</button>
+      <div class="sidebar-note">Answers are matched from a predefined FAQ database.</div>
+    </aside>
+
+    <section class="chat-panel">
+      <header class="chat-header"><div><h1>Campus FAQ Assistant</h1><p>Ask a question about college services</p></div><div class="status"><span></span> Ready</div></header>
+      <div class="messages" id="messages" aria-live="polite">
+        <div class="message bot"><div class="avatar">Q</div><div class="bubble"><p>Hello! I'm your FAQ assistant.</p><p>Ask me about admissions, fees, attendance, exams, placements or student services.</p></div></div>
+      </div>
+      <div class="composer-wrap"><form id="chat-form" class="composer"><textarea id="question" rows="1" placeholder="Ask your question..." aria-label="Type your question"></textarea><button id="send" type="submit" aria-label="Send message"><span>Send</span><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 12 20 4 14 20l-2-7-8-1Z"/></svg></button></form><div class="disclaimer">Campus FAQ Assistant · Answers may need confirmation from the college office</div></div>
+    </section>
+  </main>
+  <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>
